@@ -11,6 +11,10 @@ class FundoImobiliario(models.Model):
         ('titulos_valores_mobiliarios', 'Títulos e Val. Mob.')
     ]
 
+
+
+
+
     id = models.UUIDField(
         primary_key=True,
         default=uuid.uuid4,
