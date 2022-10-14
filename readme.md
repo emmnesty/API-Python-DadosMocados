@@ -21,4 +21,13 @@ sudo docker-compose up
 python3 manage.py runserver
 ```
 
+http://localhost:8000/api/v1/
 
+Necessário criar o usuário, dentro da venv,
+Exemplo:
+```
+python3 manage.py createsuperuser --email admin@fundsfinder.com --username admin
+```
+```
+http://localhost:8000/api/v1/fundos
+```
